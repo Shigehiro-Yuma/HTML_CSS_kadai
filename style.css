@@ -9,20 +9,24 @@
     display: flex;
 }
 
+/* ロゴ */
 .header_box .logo {
     height: 60px;
 }
 
+/* 電話番号 */
 .header_box .telephone {
     margin-left: auto;
     color: black;
 }
 
+/* キャッチコピー */
 .header_box p{
     font-weight: bold;
     color: brown;
 }
 
+/* メニュー */
 .navi_box{
     display: flex;
 }
@@ -98,6 +102,7 @@
     font-size: 40px;
 }
 
+/* こだわり */
 .kodawari {
     margin:0 auto;
     width:50vw;
@@ -109,6 +114,7 @@
     margin-right: 30px;
 }
 
+/* 新着情報 */
 .news {
     display: flex;
     flex-direction: column;
@@ -120,6 +126,7 @@
     margin: 10px;
 }
 
+/* 当店概要 */
 .overview {
     display: flex;
     margin: 20px;
@@ -130,10 +137,12 @@
     width: 40%;
 }
 
+/* お問い合わせ */
 form {
     text-align: center;
 }
 
+/* フッター */
 .footer .logo_2 {
     height: 60px;
     text-align: left;
