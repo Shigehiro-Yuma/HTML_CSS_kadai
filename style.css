@@ -1,0 +1,144 @@
+.wrapper{
+    padding: 10px;
+    box-sizing: border-box;
+    background-image: url(./img/背景画像.jpg);
+    font-size: 25px;
+}
+
+.header_box{
+    display: flex;
+}
+
+.header_box .logo {
+    height: 60px;
+}
+
+.header_box .telephone {
+    margin-left: auto;
+    color: black;
+}
+
+.header_box p{
+    font-weight: bold;
+    color: brown;
+}
+
+.navi_box{
+    display: flex;
+}
+.navi_box .menu {
+  margin:0 auto;
+  list-style: none;
+}
+ 
+.navi_box .menu li {
+  width: 300px;
+  text-align: center;
+  background-color: #333;
+  display: inline-block;
+  font-size: 16px;
+  padding:  5px;
+}
+
+.navi_box .menu li a{
+    color:aliceblue;
+}
+
+/*トップ画像*/
+.top_img img{
+    display: block;
+    margin: auto;
+    width: 90vw;
+    padding: 10px;
+}
+
+/* コンテンツ１ */
+.contents_text {
+    display:flex;
+    font-size: 30px;
+    justify-content: center;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+}
+
+
+
+.contents1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents1 .box img{
+    width:400px;
+}
+
+/*　コンテンツ２ */
+.contents2_1 {
+    display: flex;
+}
+
+.contents2_1 img {
+    width: 40%;
+}
+
+.contents2_1 p {
+    padding-left: 40px;
+    width: 60%;
+    font-size: 40px;
+}
+
+.contents2_2 {
+    display: flex;
+}
+
+.contents2_2 p {
+    padding-left: 40px;
+    width: 60%;
+    font-size: 40px;
+}
+
+.kodawari {
+    margin:0 auto;
+    width:50vw;
+}
+
+.kodawari img {
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align:center;
+}
+
+.news a{
+    margin: 10px;
+}
+
+.overview {
+    display: flex;
+    margin: 20px;
+    justify-content:center;
+}
+
+.overview p {
+    width: 40%;
+}
+
+form {
+    text-align: center;
+}
+
+.footer .logo_2 {
+    height: 60px;
+    text-align: left;
+}
+
+.copywrite {
+    text-align: right;
+}
